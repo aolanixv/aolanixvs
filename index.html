@@ -3,23 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Invitación a mis XV Años</title>
-    <meta name="description" content="Invitación de Aolani a mis XV años.">
-
-    <!-- Open Graph meta tags -->
-    <meta property="og:title" content="Invitación de Aolani a mis XV años">
-    <meta property="og:description" content="Te invito a celebrar mis XV años. ¡No faltes!">
-    <meta property="og:image" content="https://tu-sitio.com/ruta-a-la-imagen.jpg">
-    <meta property="og:url" content="https://aolanixv.github.io/aolanixvs/">
-    <meta property="og:type" content="website">
-
-    <!-- Twitter meta tags -->
-    <meta name="twitter:title" content="Invitación de Aolani a mis XV años">
-    <meta name="twitter:description" content="Te invito a celebrar mis XV años. ¡No faltes!">
-    <meta name="twitter:image" content="https://tu-sitio.com/ruta-a-la-imagen.jpg">
-    <meta name="twitter:card" content="summary_large_image">
   <title>Invitación a los XV años de Aolani</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
@@ -38,6 +21,9 @@
   <title>Reproductor de Música</title>
 
   <style>
+      #texto-principal {
+            margin-top: -100px; /* Ajusta este valor para mover el texto hacia abajo */
+        }
      /* Estilos para los títulos de las secciones */
     .section-title {
       transition: color 0.3s; /* Transición suave del color del texto */
@@ -391,6 +377,14 @@
 
 .radio-group input[type="radio"]:checked + label::before {
   background-color: #007bff;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between; /* Alinea los botones con espacio entre ellos */
+}
+
+.button {
+  margin: 5px; /* Añade un margen para separación visual */
 }
 
 .button-container {
@@ -771,7 +765,23 @@ html, body {
             cursor: pointer;
         }
   </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invitación a mis XV Años</title>
+  <meta name="description" content="Invitación de Aolani a mis XV años. Confirmación de asistencia, agenda el evento y más.">
 
+  <!-- Open Graph meta tags -->
+  <meta property="og:title" content="Invitación a mis XV Años">
+  <meta property="og:description" content="Invitación de Aolani a mis XV años. Confirmación de asistencia, agenda el evento y más.">
+  <meta property="og:image" content="https://tu-sitio.com/ruta-a-la-imagen.jpg">
+  <meta property="og:url" content="https://tu-sitio.com">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter meta tags -->
+  <meta name="twitter:title" content="Invitación a mis XV Años">
+  <meta name="twitter:description" content="Invitación de Aolani a mis XV años. Confirmación de asistencia, agenda el evento y más.">
+  <meta name="twitter:image" content="https://tu-sitio.com/ruta-a-la-imagen.jpg">
+  <meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body>
@@ -814,17 +824,17 @@ html, body {
       <div class="carousel-container" style="position: relative; overflow: hidden; margin: 0; padding: 0;">
         <div class="carousel">
           <div class="carousel">
-            <img src="FOTOS/PORTADA.jpg" alt="Foto de bienvenida 1" class="full-width-image">
-            <img src="FOTOS/PORTADA2.jpg" alt="Foto de bienvenida 2" class="full-width-image">
-            <img src="FOTOS/PORTADA3.jpg" alt="Foto de bienvenida 3" class="full-width-image">
+            <img src="FOTOS/portada.jpg" alt="Foto de bienvenida 1" class="full-width-image">
+            <img src="FOTOS/portada2.jpg" alt="Foto de bienvenida 2" class="full-width-image">
+            <img src="FOTOS/portada3.jpg" alt="Foto de bienvenida 3" class="full-width-image">
           </div>
         </div>
         <div class="header-content" style="position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%); z-index: 2;">
           <h1 class="animated-text" style="font-size: 4em; margin-bottom: 10px; line-height: 1; font-family: 'Clicker Script', cursive;">Geraldinne Aolani</h1>
           <h1 class="animated-text" style="font-size: 6em; margin-bottom: 10px; line-height: 0.4;">¡Hola!,</h1>
-          <p class="animated-text" style="font-size: 2.5em; margin-bottom: 10px; line-height: 1;">“¡Celebra conmigo!</p>
-          <p class="animated-text" style="font-size: 2.5em; margin-bottom: 10px; line-height: 0.2;">Mis XV años</p>
-          <p class="animated-text" style="font-size: 1.5em; margin-bottom: 8px; line-height: 0.5;">21 de julio 4:00 P.M.</p>
+          <p class="animated-text" style="font-size: 2.5em; margin-bottom: 8px; line-height: 1;">“¡Celebra conmigo!</p>
+          <p class="animated-text" style="font-size: 2.5em; margin-bottom: 8px; line-height: 0;">Mis XV años</p>
+          <p class="animated-text" style="font-size: 1.5em; margin-bottom: 8px; line-height: 0.5;">21 de julio 4:00 PM.</p>
           <p class="animated-text" style="font-size: 1em; margin-bottom: 10px; line-height: 1;">¡Un día para recordar siempre!” ¡No faltes!</p>
           <div id="countdown" class="countdown"></div>
         </div>
@@ -986,8 +996,8 @@ html, body {
       </h2>
       <div class="header">
         <i class="fas fa-ticket-alt fa-2x" style="color: #007bff;"></i>
-        <span class="pases-text">Antes del 7 de Julio de 2024 de esta manera nos aseguramos de contar con tu presencia.
-</span>
+        <span class="pases-text">Antes del 7 de julio de 2024 de esta manera nos aseguramos de contar con tu presencia.
+        </span>
       </div>
       <div class="content" data-aos="fade-up" data-aos-delay="300">
         <form id="rsvp-form">
@@ -1014,8 +1024,11 @@ html, body {
           </div>
 
           <div class="button-container">
-            <button type="button" class="button" onclick="confirmarAsistencia()">
-              <i class="fas fa-check"></i> Confirmar
+            <button type="button" class="button" onclick="confirmarAsistenciaAmigos()">
+              <i class="fas fa-check"></i> Amigos
+            </button>
+            <button type="button" class="button" onclick="confirmarAsistenciaFamiliares()">
+              <i class="fas fa-check"></i> Familiares
             </button>
           </div>
         </form>
@@ -1023,28 +1036,34 @@ html, body {
     </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
-      function confirmarAsistencia() {
-        const nombre = document.getElementById('nombre1').value;
-        const asistencia = document.querySelector('input[name="asistencia"]:checked').value;
-        const invitadosConfirmados = document.getElementById('invitados-confirmados').value;
+  function confirmarAsistenciaAmigos() {
+    confirmarAsistencia('524441347910');  // Número para amigos
+  }
 
-        let mensaje = `Nombre del invitado o familia: ${nombre}\n`;
-        mensaje += `¿Asistirá?: ${asistencia === 'si' ? 'Sí' : 'No'}\n`;
-        mensaje += `Número de invitados confirmados: ${invitadosConfirmados}\n`;
+  function confirmarAsistenciaFamiliares() {
+    confirmarAsistencia('524443307925');  // Número para familiares
+  }
 
-        const url = `https://wa.me/524441347910?text=${encodeURIComponent(mensaje)}`;
-        window.open(url, '_blank');
+  function confirmarAsistencia(numeroWhatsApp) {
+    const nombre = document.getElementById('nombre1').value;
+    const asistencia = document.querySelector('input[name="asistencia"]:checked').value;
+    const invitadosConfirmados = document.getElementById('invitados-confirmados').value;
 
-        // Limpiar los campos del formulario
-        document.getElementById('rsvp-form').reset();
-      }
+    let mensaje = `Nombre del invitado o familia: ${nombre}\n`;
+    mensaje += `¿Asistirá?: ${asistencia === 'si' ? 'Sí' : 'No'}\n`;
+    mensaje += `Número de invitados confirmados: ${invitadosConfirmados}\n`;
 
-      // Inicializar AOS (Animate On Scroll)
-      AOS.init({
-        duration: 800, // Duración de la animación en milisegundos
-      });
-    </script>
-  <script>
+    const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
+    window.open(url, '_blank');
+
+    // Limpiar los campos del formulario
+    document.getElementById('rsvp-form').reset();
+  }
+
+  // Inicializar AOS (Animate On Scroll)
+  AOS.init({
+    duration: 800, // Duración de la animación en milisegundos
+  });
 document.addEventListener('DOMContentLoaded', (event) => {
       const playerIcon = document.getElementById('playerIcon');
       const customAudioPlayer = document.getElementById('customAudioPlayer');
@@ -1224,18 +1243,6 @@ var saludoForm = document.getElementById('saludo-form');
             const newGradient = colors.map((color, index) => `${color} ${(index * 100) / (colors.length - 1)}%`).join(', ');
             body.style.background = `linear-gradient(-45deg, ${newGradient})`;
         }
-
-        // Actualiza el gradiente cada 10 segundos
-        setInterval(updateGradient, 2000);
-
-        // Actualiza el gradiente al cargar la página
-        updateGradient();
-
-// Actualiza el gradiente cada 10 segundos
-setInterval(updateGradient, 2000);
-
-// Actualiza el gradiente al cargar la página
-updateGradient();
 
 
   </script>
